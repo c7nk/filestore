@@ -1,0 +1,545 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="284" viewBox="0 0 720 284">
+  <title>Example CI status: 412 of 498 jobs passed (sample data)</title>
+  <style>
+    text { font: 13px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .muted { fill: #656d76; }
+    .title { font-weight: 600; font-size: 15px; }
+    .link { fill: #0969da; text-decoration: underline; }
+    .bg { fill: #ffffff; stroke: #d0d7de; }
+    .p { fill: #2da44e; } .f { fill: #cf222e; } .r { fill: #0969da; } .q { fill: #afb8c1; }
+    @keyframes pulse { 50% { opacity: .4; } }
+    .running { animation: pulse 1.4s ease-in-out infinite; }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #e6edf3; } .muted { fill: #8b949e; } .link { fill: #58a6ff; }
+      .bg { fill: #0d1117; stroke: #30363d; }
+    }
+  </style>
+  <rect class="bg" x=".5" y=".5" width="719" height="283" rx="10"/>
+
+  <text class="title" x="20" y="28">CI status · sample</text>
+  <text class="muted" x="700" y="28" text-anchor="end">412 / 498 passed · ETA ~14 min</text>
+
+  <g>
+    <path class="p" d="M27.0,40 H582.6 V54 H27.0 A7,7 0 0 1 20.0,47 V47 A7,7 0 0 1 27.0,40 Z"/>
+    <path class="f" d="M582.6,40 H611.3 V54 H582.6 Z"/>
+    <path class="r running" d="M611.3,40 H652.3 V54 H611.3 Z"/>
+    <path class="q" d="M652.3,40 H693.0 A7,7 0 0 1 700.0,47 V47 A7,7 0 0 1 693.0,54 H652.3 Z"/>
+  </g>
+
+  <g>
+    <circle cx="26"  cy="76" r="5" class="p"/><text x="36"  y="80">412 passed</text>
+    <circle cx="146" cy="76" r="5" class="f"/><text x="156" y="80">21 failed</text>
+    <circle cx="256" cy="76" r="5" class="r"/><text x="266" y="80">30 running</text>
+    <circle cx="376" cy="76" r="5" class="q"/><text x="386" y="80">35 pending</text>
+  </g>
+
+  <text class="f" x="20" y="108">✕</text><a href="https://example.com/jobs/1001"><text class="link" x="38" y="108">example-suite/job-a</text></a>
+  <text class="muted" x="700" y="108" text-anchor="end">12m 04s · flaky 2×</text>
+  <text class="f" x="20" y="128">✕</text><a href="https://example.com/jobs/1002"><text class="link" x="38" y="128">example-suite/job-b</text></a>
+  <text class="muted" x="700" y="128" text-anchor="end">31m 40s</text>
+  <text class="muted" x="38" y="148">+19 more failing</text>
+
+  <g>
+    <rect class="p" x="20" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="30" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="40" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="50" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="60" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="70" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="80" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="90" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="100" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="110" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="120" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="130" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="140" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="150" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="160" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="170" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="180" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="190" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="200" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="210" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="220" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="230" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="240" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="250" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="260" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="270" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="280" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="290" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="300" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="310" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="320" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="330" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="340" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="350" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="360" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="370" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="380" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="390" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="400" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="410" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="420" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="430" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="440" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="450" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="460" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="470" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="480" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="490" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="500" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="510" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="520" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="530" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="540" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="550" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="560" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="570" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="580" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="590" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="600" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="610" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="620" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="630" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="640" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="650" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="660" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="670" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="680" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="690" y="168" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="20" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="30" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="40" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="50" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="60" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="70" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="80" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="90" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="100" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="110" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="120" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="130" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="140" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="150" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="160" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="170" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="180" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="190" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="200" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="210" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="220" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="230" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="240" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="250" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="260" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="270" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="280" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="290" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="300" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="310" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="320" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="330" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="340" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="350" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="360" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="370" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="380" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="390" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="400" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="410" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="420" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="430" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="440" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="450" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="460" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="470" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="480" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="490" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="500" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="510" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="520" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="530" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="540" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="550" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="560" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="570" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="580" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="590" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="600" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="610" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="620" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="630" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="640" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="650" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="660" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="670" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="680" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="690" y="178" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="20" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="30" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="40" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="50" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="60" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="70" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="80" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="90" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="100" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="110" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="120" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="130" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="140" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="150" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="160" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="170" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="180" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="190" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="200" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="210" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="220" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="230" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="240" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="250" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="260" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="270" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="280" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="290" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="300" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="310" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="320" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="330" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="340" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="350" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="360" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="370" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="380" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="390" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="400" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="410" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="420" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="430" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="440" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="450" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="460" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="470" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="480" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="490" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="500" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="510" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="520" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="530" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="540" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="550" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="560" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="570" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="580" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="590" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="600" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="610" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="620" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="630" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="640" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="650" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="660" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="670" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="680" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="690" y="188" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="20" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="30" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="40" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="50" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="60" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="70" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="80" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="90" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="100" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="110" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="120" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="130" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="140" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="150" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="160" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="170" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="180" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="190" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="200" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="210" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="220" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="230" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="240" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="250" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="260" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="270" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="280" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="290" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="300" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="310" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="320" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="330" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="340" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="350" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="360" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="370" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="380" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="390" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="400" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="410" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="420" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="430" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="440" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="450" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="460" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="470" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="480" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="490" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="500" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="510" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="520" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="530" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="540" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="550" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="560" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="570" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="580" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="590" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="600" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="610" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="620" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="630" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="640" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="650" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="660" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="670" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="680" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="690" y="198" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="20" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="30" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="40" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="50" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="60" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="70" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="80" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="90" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="100" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="110" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="120" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="130" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="140" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="150" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="160" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="170" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="180" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="190" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="200" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="210" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="220" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="230" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="240" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="250" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="260" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="270" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="280" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="290" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="300" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="310" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="320" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="330" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="340" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="350" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="360" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="370" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="380" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="390" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="400" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="410" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="420" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="430" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="440" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="450" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="460" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="470" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="480" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="490" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="500" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="510" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="520" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="530" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="540" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="550" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="560" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="570" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="580" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="590" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="600" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="610" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="620" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="630" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="640" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="650" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="660" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="670" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="680" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="690" y="208" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="20" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="30" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="40" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="50" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="60" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="70" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="80" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="90" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="100" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="110" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="120" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="130" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="140" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="150" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="160" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="170" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="180" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="190" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="200" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="210" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="220" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="230" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="240" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="250" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="260" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="270" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="280" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="290" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="300" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="310" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="320" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="330" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="340" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="350" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="360" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="370" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="380" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="390" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="400" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="410" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="420" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="430" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="440" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="450" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="460" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="470" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="480" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="490" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="500" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="510" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="520" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="530" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="540" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="550" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="560" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="570" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="580" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="590" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="600" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="610" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="620" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="630" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="640" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="650" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="660" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="670" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="680" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="690" y="218" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="20" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="30" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="40" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="50" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="60" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="70" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="80" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="90" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="100" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="110" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="120" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="130" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="140" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="150" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="160" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="170" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="180" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="190" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="200" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="210" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="220" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="230" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="240" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="250" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="260" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="270" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="280" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="290" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="300" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="310" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="320" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="330" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="340" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="350" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="360" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="370" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="380" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="390" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="400" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="410" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="420" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="430" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="440" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="450" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="460" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="470" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="480" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="490" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="r running" x="500" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="510" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="520" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="530" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="540" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="550" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="560" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="570" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="580" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="590" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="600" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="610" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="620" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="630" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="640" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="650" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="660" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="670" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="680" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="690" y="228" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="20" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="30" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="40" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="50" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="60" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="70" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="80" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="90" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="100" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="110" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="120" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="130" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="140" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="150" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="f" x="160" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="170" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="180" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="190" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="200" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="210" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="q" x="220" y="238" width="8" height="8" rx="1.5"/>
+    <rect class="p" x="230" y="238" width="8" height="8" rx="1.5"/>
+  </g>
+
+  <text class="muted" x="20" y="268" font-size="11">One square per job</text>
+  <text class="muted" x="700" y="268" text-anchor="end" font-size="11">static example · sample data</text>
+</svg>
